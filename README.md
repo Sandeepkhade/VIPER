@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Sandeepkhade
-- 👀 I’m interested in iOS, Objective-c Swift, Python
-- 🌱 I’m currently learning Swift
-- 💞️ I’m looking to collaborate on iOS
+- 👀 I’m interested in Mobile App Development - Android, iOS, Objective-c Swift, Python, Flutter 
+- 🌱 Exploring SwiftUI and Reactive Programming with Enterprise Apps
+- 💞️ I’m looking to collaborate on iOS Project 
 - 📫 How to reach me sandeep.python@gmail.com
 
 <!---
