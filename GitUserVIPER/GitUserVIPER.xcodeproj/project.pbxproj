@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186CF87D2AF269C6006D808F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF87C2AF269C6006D808F /* AppDelegate.swift */; };
+		186CF87F2AF269C6006D808F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF87E2AF269C6006D808F /* SceneDelegate.swift */; };
+		186CF8842AF269C6006D808F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186CF8822AF269C6006D808F /* Main.storyboard */; };
+		186CF8862AF269C6006D808F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186CF8852AF269C6006D808F /* Assets.xcassets */; };
+		186CF8892AF269C6006D808F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186CF8872AF269C6006D808F /* LaunchScreen.storyboard */; };
+		186CF8932AF26F49006D808F /* GitFollowerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8922AF26F49006D808F /* GitFollowerProtocols.swift */; };
+		186CF8962AF26F84006D808F /* GitFollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8952AF26F84006D808F /* GitFollowerViewController.swift */; };
+		186CF8982AF26F9C006D808F /* GitFollowerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8972AF26F9C006D808F /* GitFollowerPresenter.swift */; };
+		186CF89A2AF26FB7006D808F /* GitFollowerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8992AF26FB7006D808F /* GitFollowerInteractor.swift */; };
+		186CF89C2AF26FC7006D808F /* GitFollowerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF89B2AF26FC7006D808F /* GitFollowerEntity.swift */; };
+		186CF89E2AF26FDA006D808F /* GitFollowerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF89D2AF26FDA006D808F /* GitFollowerRouter.swift */; };
+		186CF8A02AF27674006D808F /* GitFollowerListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF89F2AF27674006D808F /* GitFollowerListProtocol.swift */; };
+		186CF8A22AF2768B006D808F /* GitFollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8A12AF2768B006D808F /* GitFollowerListViewController.swift */; };
+		186CF8A42AF276A1006D808F /* GitFollowerListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8A32AF276A1006D808F /* GitFollowerListPresenter.swift */; };
+		186CF8A62AF276C1006D808F /* GitFollowerListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8A52AF276C1006D808F /* GitFollowerListInteractor.swift */; };
+		186CF8A82AF276D7006D808F /* GitFollowerListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8A72AF276D7006D808F /* GitFollowerListEntity.swift */; };
+		186CF8AA2AF276EB006D808F /* GitFollowerListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8A92AF276EB006D808F /* GitFollowerListRouter.swift */; };
+		186CF8AD2AF27BAE006D808F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8AC2AF27BAE006D808F /* NetworkManager.swift */; };
+		186CF8AF2AF27BFA006D808F /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8AE2AF27BFA006D808F /* CustomError.swift */; };
+		186CF8B22AF27F59006D808F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8B12AF27F59006D808F /* Constant.swift */; };
+		186CF8B62AF293B6006D808F /* GitFollowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8B42AF293B6006D808F /* GitFollowerTableViewCell.swift */; };
+		186CF8B72AF293B6006D808F /* GitFollowerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186CF8B52AF293B6006D808F /* GitFollowerTableViewCell.xib */; };
+		186CF8B92AF29F29006D808F /* ImageView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8B82AF29F29006D808F /* ImageView+Extention.swift */; };
+		186CF8BB2AF29FC7006D808F /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186CF8BA2AF29FC7006D808F /* String+Extention.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186CF8792AF269C6006D808F /* GitUserVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitUserVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186CF87C2AF269C6006D808F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		186CF87E2AF269C6006D808F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		186CF8832AF269C6006D808F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186CF8852AF269C6006D808F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186CF8882AF269C6006D808F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186CF88A2AF269C6006D808F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186CF8922AF26F49006D808F /* GitFollowerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerProtocols.swift; sourceTree = "<group>"; };
+		186CF8952AF26F84006D808F /* GitFollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerViewController.swift; sourceTree = "<group>"; };
+		186CF8972AF26F9C006D808F /* GitFollowerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerPresenter.swift; sourceTree = "<group>"; };
+		186CF8992AF26FB7006D808F /* GitFollowerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerInteractor.swift; sourceTree = "<group>"; };
+		186CF89B2AF26FC7006D808F /* GitFollowerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerEntity.swift; sourceTree = "<group>"; };
+		186CF89D2AF26FDA006D808F /* GitFollowerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerRouter.swift; sourceTree = "<group>"; };
+		186CF89F2AF27674006D808F /* GitFollowerListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerListProtocol.swift; sourceTree = "<group>"; };
+		186CF8A12AF2768B006D808F /* GitFollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerListViewController.swift; sourceTree = "<group>"; };
+		186CF8A32AF276A1006D808F /* GitFollowerListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerListPresenter.swift; sourceTree = "<group>"; };
+		186CF8A52AF276C1006D808F /* GitFollowerListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerListInteractor.swift; sourceTree = "<group>"; };
+		186CF8A72AF276D7006D808F /* GitFollowerListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerListEntity.swift; sourceTree = "<group>"; };
+		186CF8A92AF276EB006D808F /* GitFollowerListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerListRouter.swift; sourceTree = "<group>"; };
+		186CF8AC2AF27BAE006D808F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		186CF8AE2AF27BFA006D808F /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		186CF8B12AF27F59006D808F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		186CF8B42AF293B6006D808F /* GitFollowerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFollowerTableViewCell.swift; sourceTree = "<group>"; };
+		186CF8B52AF293B6006D808F /* GitFollowerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GitFollowerTableViewCell.xib; sourceTree = "<group>"; };
+		186CF8B82AF29F29006D808F /* ImageView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+Extention.swift"; sourceTree = "<group>"; };
+		186CF8BA2AF29FC7006D808F /* String+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186CF8762AF269C6006D808F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186CF8702AF269C6006D808F = {
+			isa = PBXGroup;
+			children = (
+				186CF87B2AF269C6006D808F /* GitUserVIPER */,
+				186CF87A2AF269C6006D808F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186CF87A2AF269C6006D808F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186CF8792AF269C6006D808F /* GitUserVIPER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186CF87B2AF269C6006D808F /* GitUserVIPER */ = {
+			isa = PBXGroup;
+			children = (
+				186CF87C2AF269C6006D808F /* AppDelegate.swift */,
+				186CF87E2AF269C6006D808F /* SceneDelegate.swift */,
+				186CF8822AF269C6006D808F /* Main.storyboard */,
+				186CF8AB2AF27B82006D808F /* NetworkManager */,
+				186CF8902AF26F0A006D808F /* GitFollowerList */,
+				186CF8912AF26F20006D808F /* GitFollowerDetails */,
+				186CF8B32AF29380006D808F /* Utility */,
+				186CF8B02AF27F4A006D808F /* Constant */,
+				186CF8852AF269C6006D808F /* Assets.xcassets */,
+				186CF8872AF269C6006D808F /* LaunchScreen.storyboard */,
+				186CF88A2AF269C6006D808F /* Info.plist */,
+			);
+			path = GitUserVIPER;
+			sourceTree = "<group>";
+		};
+		186CF8902AF26F0A006D808F /* GitFollowerList */ = {
+			isa = PBXGroup;
+			children = (
+				186CF89F2AF27674006D808F /* GitFollowerListProtocol.swift */,
+				186CF8A12AF2768B006D808F /* GitFollowerListViewController.swift */,
+				186CF8A32AF276A1006D808F /* GitFollowerListPresenter.swift */,
+				186CF8A52AF276C1006D808F /* GitFollowerListInteractor.swift */,
+				186CF8A72AF276D7006D808F /* GitFollowerListEntity.swift */,
+				186CF8A92AF276EB006D808F /* GitFollowerListRouter.swift */,
+			);
+			path = GitFollowerList;
+			sourceTree = "<group>";
+		};
+		186CF8912AF26F20006D808F /* GitFollowerDetails */ = {
+			isa = PBXGroup;
+			children = (
+				186CF8922AF26F49006D808F /* GitFollowerProtocols.swift */,
+				186CF8952AF26F84006D808F /* GitFollowerViewController.swift */,
+				186CF8972AF26F9C006D808F /* GitFollowerPresenter.swift */,
+				186CF8992AF26FB7006D808F /* GitFollowerInteractor.swift */,
+				186CF89B2AF26FC7006D808F /* GitFollowerEntity.swift */,
+				186CF89D2AF26FDA006D808F /* GitFollowerRouter.swift */,
+			);
+			path = GitFollowerDetails;
+			sourceTree = "<group>";
+		};
+		186CF8AB2AF27B82006D808F /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				186CF8AC2AF27BAE006D808F /* NetworkManager.swift */,
+				186CF8AE2AF27BFA006D808F /* CustomError.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		186CF8B02AF27F4A006D808F /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				186CF8B12AF27F59006D808F /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		186CF8B32AF29380006D808F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				186CF8B42AF293B6006D808F /* GitFollowerTableViewCell.swift */,
+				186CF8B52AF293B6006D808F /* GitFollowerTableViewCell.xib */,
+				186CF8B82AF29F29006D808F /* ImageView+Extention.swift */,
+				186CF8BA2AF29FC7006D808F /* String+Extention.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186CF8782AF269C6006D808F /* GitUserVIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186CF88D2AF269C6006D808F /* Build configuration list for PBXNativeTarget "GitUserVIPER" */;
+			buildPhases = (
+				186CF8752AF269C6006D808F /* Sources */,
+				186CF8762AF269C6006D808F /* Frameworks */,
+				186CF8772AF269C6006D808F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitUserVIPER;
+			productName = GitUserVIPER;
+			productReference = 186CF8792AF269C6006D808F /* GitUserVIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186CF8712AF269C6006D808F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					186CF8782AF269C6006D808F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 186CF8742AF269C6006D808F /* Build configuration list for PBXProject "GitUserVIPER" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186CF8702AF269C6006D808F;
+			productRefGroup = 186CF87A2AF269C6006D808F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186CF8782AF269C6006D808F /* GitUserVIPER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186CF8772AF269C6006D808F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186CF8892AF269C6006D808F /* LaunchScreen.storyboard in Resources */,
+				186CF8862AF269C6006D808F /* Assets.xcassets in Resources */,
+				186CF8B72AF293B6006D808F /* GitFollowerTableViewCell.xib in Resources */,
+				186CF8842AF269C6006D808F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186CF8752AF269C6006D808F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186CF8932AF26F49006D808F /* GitFollowerProtocols.swift in Sources */,
+				186CF8B22AF27F59006D808F /* Constant.swift in Sources */,
+				186CF8AF2AF27BFA006D808F /* CustomError.swift in Sources */,
+				186CF8962AF26F84006D808F /* GitFollowerViewController.swift in Sources */,
+				186CF89A2AF26FB7006D808F /* GitFollowerInteractor.swift in Sources */,
+				186CF8A82AF276D7006D808F /* GitFollowerListEntity.swift in Sources */,
+				186CF8982AF26F9C006D808F /* GitFollowerPresenter.swift in Sources */,
+				186CF8A62AF276C1006D808F /* GitFollowerListInteractor.swift in Sources */,
+				186CF89C2AF26FC7006D808F /* GitFollowerEntity.swift in Sources */,
+				186CF8A02AF27674006D808F /* GitFollowerListProtocol.swift in Sources */,
+				186CF8B62AF293B6006D808F /* GitFollowerTableViewCell.swift in Sources */,
+				186CF87D2AF269C6006D808F /* AppDelegate.swift in Sources */,
+				186CF89E2AF26FDA006D808F /* GitFollowerRouter.swift in Sources */,
+				186CF8BB2AF29FC7006D808F /* String+Extention.swift in Sources */,
+				186CF8AA2AF276EB006D808F /* GitFollowerListRouter.swift in Sources */,
+				186CF8A42AF276A1006D808F /* GitFollowerListPresenter.swift in Sources */,
+				186CF8AD2AF27BAE006D808F /* NetworkManager.swift in Sources */,
+				186CF87F2AF269C6006D808F /* SceneDelegate.swift in Sources */,
+				186CF8B92AF29F29006D808F /* ImageView+Extention.swift in Sources */,
+				186CF8A22AF2768B006D808F /* GitFollowerListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		186CF8822AF269C6006D808F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186CF8832AF269C6006D808F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186CF8872AF269C6006D808F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186CF8882AF269C6006D808F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186CF88B2AF269C6006D808F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		186CF88C2AF269C6006D808F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186CF88E2AF269C6006D808F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L9Q7HNQF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitUserVIPER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VIPER.GitUserVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186CF88F2AF269C6006D808F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L9Q7HNQF9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitUserVIPER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VIPER.GitUserVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186CF8742AF269C6006D808F /* Build configuration list for PBXProject "GitUserVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186CF88B2AF269C6006D808F /* Debug */,
+				186CF88C2AF269C6006D808F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186CF88D2AF269C6006D808F /* Build configuration list for PBXNativeTarget "GitUserVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186CF88E2AF269C6006D808F /* Debug */,
+				186CF88F2AF269C6006D808F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186CF8712AF269C6006D808F /* Project object */;
+}

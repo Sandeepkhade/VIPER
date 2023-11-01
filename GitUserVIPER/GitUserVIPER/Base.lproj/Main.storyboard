@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Git Follower List View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="GitFollowerListViewController" id="BYZ-38-t0r" customClass="GitFollowerListViewController" customModule="GitUserVIPER" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="TKr-b4-0oJ">
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TKr-b4-0oJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7ue-au-54d"/>
+                            <constraint firstItem="TKr-b4-0oJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="iLX-mB-utu"/>
+                            <constraint firstAttribute="bottom" secondItem="TKr-b4-0oJ" secondAttribute="bottom" id="k5o-nE-COw"/>
+                            <constraint firstItem="TKr-b4-0oJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tRZ-bp-Xae"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="followesTableView" destination="TKr-b4-0oJ" id="d1U-cO-9Do"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="81.679389312977094" y="3.5211267605633805"/>
+        </scene>
+        <!--Git Follower View Controller-->
+        <scene sceneID="nVJ-VB-jVt">
+            <objects>
+                <viewController storyboardIdentifier="GitFollowerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LlY-VV-mvh" customClass="GitFollowerViewController" customModule="GitUserVIPER" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g83-qm-iYx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f9l-xo-jet">
+                                <rect key="frame" x="96.666666666666686" y="239" width="200" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="bal-UM-Eej"/>
+                                    <constraint firstAttribute="height" constant="128" id="r2S-vI-tlC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Bio avaiolable on Git Profile" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yMG-ve-tYw">
+                                <rect key="frame" x="126.66666666666669" y="487" width="140" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="MHJ-kA-yZ6"/>
+                                    <constraint firstAttribute="width" constant="140" id="dbu-fD-tVr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kH1-do-pzv">
+                                <rect key="frame" x="157.33333333333334" y="131" width="78.333333333333343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="oyt-yF-jMF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JRg-Zm-OjY"/>
+                        <color key="backgroundColor" red="0.89544473333829733" green="1" blue="0.97772135792805281" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="kH1-do-pzv" firstAttribute="top" secondItem="JRg-Zm-OjY" secondAttribute="top" constant="72" id="5gW-lm-FUv"/>
+                            <constraint firstItem="yMG-ve-tYw" firstAttribute="centerX" secondItem="JRg-Zm-OjY" secondAttribute="centerX" id="Qgw-fM-RS6"/>
+                            <constraint firstItem="f9l-xo-jet" firstAttribute="top" secondItem="JRg-Zm-OjY" secondAttribute="top" constant="180" id="oCt-BW-FY7"/>
+                            <constraint firstItem="yMG-ve-tYw" firstAttribute="top" secondItem="f9l-xo-jet" secondAttribute="bottom" constant="120" id="qfx-GZ-ZxN"/>
+                            <constraint firstItem="kH1-do-pzv" firstAttribute="centerX" secondItem="JRg-Zm-OjY" secondAttribute="centerX" id="s0X-iu-uIp"/>
+                            <constraint firstItem="f9l-xo-jet" firstAttribute="centerX" secondItem="JRg-Zm-OjY" secondAttribute="centerX" id="sI2-Ui-C5z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mGitUserBio" destination="yMG-ve-tYw" id="QJn-XL-nkI"/>
+                        <outlet property="mGitUserImage" destination="f9l-xo-jet" id="weA-Jn-MXY"/>
+                        <outlet property="mUserNameLbl" destination="kH1-do-pzv" id="00a-2R-DZ7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QPm-0X-JIg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895" y="13"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
